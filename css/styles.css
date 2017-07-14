@@ -83,3 +83,15 @@
   padding-bottom: 20px;
   font-size: 16px;
 }
+
+/*Start contacts*/
+
+.contact-img{
+  height: 240px;
+  padding: 20px;
+}
+
+.dr-text{
+  font-weight: 400;
+  font-size: 16px;
+}

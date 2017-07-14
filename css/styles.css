@@ -95,3 +95,15 @@
   font-weight: 400;
   font-size: 16px;
 }
+
+.contact-sheet{
+  border-bottom: 2px solid #b4b6ba;
+  text-align: left;
+}
+
+.contact-sheet2{
+  border-bottom: 2px solid #b4b6ba;
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+}

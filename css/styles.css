@@ -5,13 +5,30 @@
 
 /*Header*/
 
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-item{
+  margin-right: auto;
+}
+
+
 .logo-img{
   height: 80px;
 }
 
+
 .logo-text{
   font-family: 'Satisfy', cursive;
   color: #f2767e; /*orange logo color*/
+}
+
+.nav-button{
+  color: #00b3e0;
+  font-size: 24px;
 }
 
 /*Hero section*/
@@ -42,8 +59,27 @@
 
 .bg-foot{
   background-color: #202123;
+  padding: 24px;
 }
 
 .foot-img{
   height: 100px;
+}
+
+.foot-list{
+  color: #b4b6ba;
+  font-size: 16px;
+  border-left: 1px solid #353535;
+  padding: 10px;
+}
+
+.no-style{
+  list-style-type: none;
+}
+
+.foot-copy{
+  background-color: #202123;
+  color: #616263;
+  padding-bottom: 20px;
+  font-size: 16px;
 }

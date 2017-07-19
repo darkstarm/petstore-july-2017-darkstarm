@@ -1,0 +1,129 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+/*Universal styles*/
+
+a, a:hover {
+  text-decoration: none;
+}
+
+/*Header*/
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-item{
+  margin-right: auto;
+}
+
+
+.logo-img{
+  height: 80px;
+}
+
+
+.logo-text{
+  font-family: 'Satisfy', cursive;
+  color: #f2767e; /*orange logo color*/
+}
+
+.nav-button{
+  color: #00b3e0;
+  font-size: 24px;
+}
+
+/*Hero section*/
+.jumbotron{
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.hero-text{
+  color: #ffffff;
+  font-weight: 300;
+}
+
+/*Features*/
+
+.thumbnail{
+  background-color: #edf1f4;
+  padding: 7px;
+}
+
+.product-img{
+  padding: 0px 7.5px;
+}
+
+/*Footer*/
+
+.bg-foot{
+  background-color: #202123;
+  padding: 24px;
+}
+
+.foot-img{
+  height: 100px;
+}
+
+.foot-list{
+  color: #bfc0c1;
+  font-size: 16px;
+  border-left: 1px solid #353535;
+  padding: 10px;
+}
+
+.no-style{
+  list-style-type: none;
+}
+
+.foot-copy{
+  background-color: #202123;
+  color: #616263;
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+
+.link-color{
+  color: #bfc0c1;
+}
+
+footer a:hover{
+  color: #bfc0c1;
+}
+
+
+/*Start contacts*/
+
+.contact-img{
+  height: 240px;
+  padding: 20px;
+}
+
+.dr-text{
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.contact-sheet{
+  border-bottom: 2px solid #b4b6ba;
+  text-align: left;
+}
+
+.contact-sheet2{
+  border-bottom: 2px solid #b4b6ba;
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.vet{
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  padding-bottom: 32px;
+}
